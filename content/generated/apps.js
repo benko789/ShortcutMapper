@@ -148,6 +148,15 @@ var sitedata_apps = [
         }
     },
     {
+        name: "MAS Project",
+        data: {
+            "10": {
+                "mac": "mas-project_10_mac.json",
+                "windows": "mas-project_10_windows.json",
+            },
+        }
+    },
+    {
         name: "SideFx Houdini",
         data: {
             "v15.5": {
