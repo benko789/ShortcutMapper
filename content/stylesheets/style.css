@@ -492,12 +492,14 @@ div#keyboard button {
     position: relative;
     opacity: 0.4;
 }
-
+/* ADD CUSTOM CODE HERE FOR CUSTOM MODIFIERS */
 div#keyboard button.hasitems,
 div#keyboard button.mod-alt,
 div#keyboard button.mod-control,
 div#keyboard button.mod-command,
 div#keyboard button.mod-shift,
+div#keyboard button.mod-tab,
+div#keyboard button.mod-accent_grave,
 div#keyboard button.mod-other {
     opacity: 1;
 }
@@ -732,6 +734,54 @@ div#keyboard button.other.hasitems b {
 }
 
 
+/* ADD CUSTOM CODE HERE FOR CUSTOM MODIFIERS*/
+/* tab */
+div#keyboard button.tab .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.tab {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.tab:active {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.tab.hasitems b {
+    background-color: #834923;
+}
+/* accent_grave */
+div#keyboard button.accent_grave .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.accent_grave {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.accent_grave:active {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.accent_grave.hasitems b {
+    background-color: #834923;
+}
+/*-------------------------------------------*/
 
 div#keyboard button.mod-active {
     margin-top: 1px;
@@ -849,6 +899,52 @@ div#keyboard button.mod-other.mod-active {
                 0px 2px 0px 0px #5a341b,
                 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
+/* ADD CUSTOM CODE HERE FOR CUSTOM MODIFIERS */
+/* tab */
+div#keyboard button.mod-tab {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.mod-tab:active .label,
+div#keyboard button.mod-tab.mod-active .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.mod-tab:active,
+div#keyboard button.mod-tab.mod-active {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+/* accent_grave */
+div#keyboard button.mod-accent_grave {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.mod-accent_grave:active .label,
+div#keyboard button.mod-accent_grave.mod-active .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.mod-accent_grave:active,
+div#keyboard button.mod-accent_grave.mod-active {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+/*---------------------------------------------*/
 
 
 
