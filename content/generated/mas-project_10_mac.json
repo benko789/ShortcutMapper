@@ -1,0 +1,59 @@
+{
+    "name" : "MAS Project",
+    "version" : "10",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "F2" : [
+                {"name":"Stop", "mods":["COMMAND"]}
+            ],
+            "F4" : [
+                {"name":"Close Active Tab", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "FOUR" : [
+                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NINE" : [
+                {"name":"Switch Fire Mode", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"Switch Fire Mode", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Test ` Modifier", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Test PageUp Modifier", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SEVEN" : [
+                {"name":"Test ` Modifier", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SIX" : [
+                {"name":"Test PageUp Modifier", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SPACE" : [
+                {"name":"Test Caps Modifier", "mods":["ALT", "CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "W" : [
+                {"name":"Move Forward", "mods":[]}
+            ]
+        }
+    }
+}

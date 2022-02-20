@@ -1,0 +1,50 @@
+{
+    "name" : "MAS Project",
+    "version" : "10",
+    "os" : "windows",
+    "mods_used" : ["ACCENT_GRAVE", "CAPSLOCK", "CONTROL", "PAGE_UP", "SHIFT", "TAB"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "F" : [
+                {"name":"Switch Fire Mode", "mods":["TAB"]}
+            ],
+            "F2" : [
+                {"name":"Stop", "mods":["CONTROL"]}
+            ],
+            "F4" : [
+                {"name":"Close Active Tab", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "FOUR" : [
+                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "G" : [
+                {"name":"Test PageUp Modifier", "mods":["PAGE_UP"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "O" : [
+                {"name":"Test ` Modifier", "mods":["ACCENT_GRAVE"]}
+            ],
+            "Q" : [
+                {"name":"Test Caps Modifier", "mods":["CAPSLOCK"]}
+            ],
+            "TWO" : [
+                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "W" : [
+                {"name":"Move Forward", "mods":[]}
+            ]
+        }
+    }
+}
