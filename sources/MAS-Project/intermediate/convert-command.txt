@@ -1,0 +1,1 @@
+py utils/export_intermediate_data.py sources/MAS-Project/intermediate/MAS_Keybinding.json

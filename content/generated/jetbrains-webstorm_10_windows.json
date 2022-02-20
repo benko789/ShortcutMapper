@@ -79,8 +79,8 @@
                 {"name":"Start New Line", "mods":["SHIFT"]}
             ],
             "EQUAL" : [
-                {"name":"Expand Recursively", "mods":["ALT", "CONTROL"]},
-                {"name":"Expand", "mods":["CONTROL"]}
+                {"name":"Expand All", "mods":["CONTROL"]},
+                {"name":"Expand Recursively", "mods":["ALT", "CONTROL"]}
             ],
             "ESCAPE" : [
                 {"name":"Escape", "mods":[]},
@@ -93,9 +93,9 @@
                 {"name":"Find", "mods":["CONTROL"]}
             ],
             "F1" : [
+                {"name":"Change View", "mods":["ALT"]},
                 {"name":"Error Description", "mods":["CONTROL"]},
-                {"name":"External Documentation", "mods":["SHIFT"]},
-                {"name":"Select In", "mods":["ALT"]}
+                {"name":"External Documentation", "mods":["SHIFT"]}
             ],
             "F10" : [
                 {"name":"Run context configuration", "mods":["CONTROL", "SHIFT"]},
@@ -248,9 +248,9 @@
             ],
             "N" : [
                 {"name":"Inline", "mods":["ALT", "CONTROL"]},
+                {"name":"Navigate to Class", "mods":["CONTROL"]},
                 {"name":"Navigate to File", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Navigate to Symbol", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"New...", "mods":["CONTROL"]},
                 {"name":"Open Task", "mods":["ALT", "SHIFT"]}
             ],
             "NINE" : [
@@ -264,8 +264,8 @@
                 {"name":"Toggle Bookmark 8", "mods":["CONTROL", "SHIFT"]}
             ],
             "NUMPAD_EQUAL" : [
-                {"name":"Expand Recursively", "mods":["ALT", "CONTROL"]},
-                {"name":"Expand", "mods":["CONTROL"]}
+                {"name":"Expand All", "mods":["CONTROL"]},
+                {"name":"Expand Recursively", "mods":["ALT", "CONTROL"]}
             ],
             "NUMPAD_FIVE" : [
                 {"name":"Go to Bookmark 5", "mods":["CONTROL"]},
@@ -334,13 +334,13 @@
             ],
             "P" : [
                 {"name":"Extract Parameter", "mods":["ALT", "CONTROL"]},
-                {"name":"Parameter Info", "mods":["CONTROL"]}
+                {"name":"Show/Hide path text", "mods":["CONTROL"]}
             ],
             "PAGE_UP" : [
-                {"name":"Move Caret to Page Top with Selection", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Move Caret to Page Bottom with Selection", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Move Caret to Page Top", "mods":["CONTROL"]},
                 {"name":"Page Down with Selection", "mods":["SHIFT"]},
-                {"name":"Page Up", "mods":[]}
+                {"name":"Page Down", "mods":[]}
             ],
             "PERIOD" : [
                 {"name":"Choose Lookup Item and Insert Dot", "mods":["CONTROL"]},
@@ -397,15 +397,15 @@
                 {"name":"Smart Completion", "mods":["CONTROL", "SHIFT"]}
             ],
             "T" : [
-                {"name":"Navigate to Test", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Refactor This", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"Show Image Thumbnails", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Surround With", "mods":["ALT", "CONTROL"]},
                 {"name":"Switch Task", "mods":["ALT", "SHIFT"]},
                 {"name":"Update Project", "mods":["CONTROL"]}
             ],
             "TAB" : [
                 {"name":"Expand Live Template by Tab", "mods":[]},
-                {"name":"Previous Parameter", "mods":["SHIFT"]},
+                {"name":"Prev Parameter", "mods":["SHIFT"]},
                 {"name":"Switcher", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Switcher", "mods":["CONTROL"]}
             ],
@@ -420,13 +420,13 @@
             ],
             "U" : [
                 {"name":"Navigate to Super Method", "mods":["CONTROL"]},
-                {"name":"Unshelve", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Toggle Case", "mods":["CONTROL", "SHIFT"]}
             ],
             "UP_ARROW" : [
                 {"name":"Lookup Up", "mods":["CONTROL"]},
                 {"name":"Move Line Up", "mods":["ALT", "SHIFT"]},
                 {"name":"Move Statement Up", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Navigate to previous table row", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"Previous Change", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"Previous Method", "mods":["ALT"]},
                 {"name":"Previous Occurrence", "mods":["ALT", "CONTROL"]},
                 {"name":"Up with Selection", "mods":["SHIFT"]}
@@ -454,7 +454,7 @@
             ],
             "Z" : [
                 {"name":"Redo", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Revert", "mods":["ALT", "CONTROL"]},
+                {"name":"Rollback", "mods":["ALT", "CONTROL"]},
                 {"name":"Undo", "mods":["CONTROL"]}
             ],
             "ZERO" : [

@@ -14,7 +14,7 @@
         activeModKeys: [],
         contextItems: null,
         highlightedKeyName: null,
-        standardModClasses: ["nomod", "alt", "command", "control", "shift", "multi", "other"],
+        standardModClasses: ["nomod", "alt", "command", "control", "shift", "multi", "tab" , "accent_grave", "other"],
 
         _create: function() {
             var keyboard = this;
