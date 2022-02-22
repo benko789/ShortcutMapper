@@ -500,6 +500,9 @@ div#keyboard button.mod-command,
 div#keyboard button.mod-shift,
 div#keyboard button.mod-tab,
 div#keyboard button.mod-accent_grave,
+div#keyboard button.mod-capslock,
+div#keyboard button.mod-page_up,
+div#keyboard button.mod-page_down,
 div#keyboard button.mod-other {
     opacity: 1;
 }
@@ -781,6 +784,75 @@ div#keyboard button.accent_grave:active {
 div#keyboard button.accent_grave.hasitems b {
     background-color: #834923;
 }
+/* capslock */
+div#keyboard button.capslock  .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.capslock {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.capslock:active {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.capslock.hasitems b {
+    background-color: #834923;
+}
+/* page_up */
+div#keyboard button.page_up .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.page_up {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.page_up:active {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.page_up.hasitems b {
+    background-color: #834923;
+}
+/* page_down */
+div#keyboard button.page_down .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.page_down {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.page_down:active {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.page_down.hasitems b {
+    background-color: #834923;
+}
 /*-------------------------------------------*/
 
 div#keyboard button.mod-active {
@@ -937,6 +1009,72 @@ div#keyboard button.mod-accent_grave.mod-active .label {
 }
 div#keyboard button.mod-accent_grave:active,
 div#keyboard button.mod-accent_grave.mod-active {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+/* capslock */
+div#keyboard button.mod-capslock {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.mod-capslock:active .label,
+div#keyboard button.mod-capslock.mod-active .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.mod-capslock:active,
+div#keyboard button.mod-capslock.mod-active {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+/* page_up */
+div#keyboard button.mod-page_up {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.mod-page_up:active .label,
+div#keyboard button.mod-page_up.mod-active .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.mod-page_up:active,
+div#keyboard button.mod-page_up.mod-active {
+    background: #b46029;
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 1px 0px 0px #904b1e,
+                0px 2px 0px 0px #5a341b,
+                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+/* page_down */
+div#keyboard button.mod-page_down {
+    box-shadow: inset 0px 0px 0px 1px #753c17,
+                inset 0px 0px 0px 2px #d88c59,
+                0px 2px 0px 0px #904b1e,
+                0px 3px 0px 0px #5a341b,
+                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+div#keyboard button.mod-page_down:active .label,
+div#keyboard button.mod-page_down.mod-active .label {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgb(80, 80, 80);
+}
+div#keyboard button.mod-page_down:active,
+div#keyboard button.mod-page_down.mod-active {
     background: #b46029;
     box-shadow: inset 0px 0px 0px 1px #753c17,
                 inset 0px 0px 0px 2px #d88c59,

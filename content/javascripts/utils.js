@@ -5,7 +5,8 @@ function Utils() {
     this.self = this;
     
     this.standardModClasses = ["nomod", "alt", "command", "control", "shift", "multi", "other"];
-
+    this.customModClasses = ["tab" , "accent_grave", "capslock", "page_up", "page_down"];
+    this.standardModClasses = this.standardModClasses.concat(this.customModClasses)
     // Maps byte to names defined in /shmaplib/keynames
     // It's important that these names are exactly the same
     this.keyCodeMap = {

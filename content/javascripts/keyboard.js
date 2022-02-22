@@ -14,9 +14,11 @@
         activeModKeys: [],
         contextItems: null,
         highlightedKeyName: null,
-        standardModClasses: ["nomod", "alt", "command", "control", "shift", "multi", "tab" , "accent_grave", "other"],
-
+        standardModClasses: ["nomod", "alt", "command", "control", "shift", "multi", "other"],
+	customModClasses:["tab" , "accent_grave", "capslock", "page_up", "page_down"],
         _create: function() {
+	    //console.log(this.standardModClasses = this.standardModClasses.concat(this.customModClasses));
+	    	    this.standardModClasses = this.standardModClasses.concat(this.customModClasses);
             var keyboard = this;
 
             // Initialize Buttons and insert all context data
