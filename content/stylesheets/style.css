@@ -790,22 +790,22 @@ div#keyboard button.capslock  .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.capslock {
-    background: #b46029;
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 2px 0px 0px #904b1e,
-                0px 3px 0px 0px #5a341b,
+    background: #d4542f;
+    box-shadow: inset 0px 0px 0px 1px #94371c,
+                inset 0px 0px 0px 2px #f75c2f,
+                0px 2px 0px 0px #c64a26,
+                0px 3px 0px 0px #632513,
                 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.capslock:active {
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 1px 0px 0px #904b1e,
-                0px 2px 0px 0px #5a341b,
+    box-shadow: inset 0px 0px 0px 1px #94371c,
+                inset 0px 0px 0px 2px #f75c2f,
+                0px 1px 0px 0px #c64a26,
+                0px 2px 0px 0px #632513,
                 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.capslock.hasitems b {
-    background-color: #834923;
+    background-color: #ab4629;
 }
 /* page_up */
 div#keyboard button.page_up .label {
@@ -1018,10 +1018,10 @@ div#keyboard button.mod-accent_grave.mod-active {
 }
 /* capslock */
 div#keyboard button.mod-capslock {
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 2px 0px 0px #904b1e,
-                0px 3px 0px 0px #5a341b,
+    box-shadow: inset 0px 0px 0px 1px #94371c,
+                inset 0px 0px 0px 2px #f75c2f,
+                0px 2px 0px 0px #c64a26,
+                0px 3px 0px 0px #632513,
                 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.mod-capslock:active .label,
@@ -1031,11 +1031,11 @@ div#keyboard button.mod-capslock.mod-active .label {
 }
 div#keyboard button.mod-capslock:active,
 div#keyboard button.mod-capslock.mod-active {
-    background: #b46029;
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 1px 0px 0px #904b1e,
-                0px 2px 0px 0px #5a341b,
+    background: #d4542f;
+    box-shadow: inset 0px 0px 0px 1px #94371c,
+                inset 0px 0px 0px 2px #f75c2f,
+                0px 1px 0px 0px #c64a26,
+                0px 2px 0px 0px #632513,
                 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
 /* page_up */
