@@ -5,7 +5,7 @@
     "mods_used" : ["ALT"],
     "default_context" : "Global Context",
     "contexts" : {
-        "Global Context" : {
+        "MAS Global Context" : {
             "A" : [
                 {"name":"Move Left", "mods":[]}
             ],

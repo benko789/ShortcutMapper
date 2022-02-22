@@ -5,7 +5,7 @@
     "mods_used" : ["ACCENT_GRAVE", "ALT", "CAPSLOCK", "PAGE_UP", "TAB"],
     "default_context" : "Global Context",
     "contexts" : {
-        "Global Context" : {
+        "MAS Global Context" : {
             "A" : [
                 {"name":"Move Left", "mods":[]}
             ],
@@ -29,6 +29,7 @@
                 {"name":"Weapon Group 8", "mods":[]}
             ],
             "F" : [
+                {"name":"MAS Interact", "mods":[]},
                 {"name":"Switch Fire Mode", "mods":["TAB"]}
             ],
             "FIVE" : [
@@ -68,7 +69,8 @@
                 {"name":"Test ` Modifier", "mods":["ACCENT_GRAVE"]}
             ],
             "ONE" : [
-                {"name":"Hand Weapon Group", "mods":[]}
+                {"name":"Hand Weapon Group", "mods":[]},
+                {"name":"Single Weapon Selection", "mods":["ALT"]}
             ],
             "P" : [
                 {"name":"Pilot / MAS", "mods":[]}
@@ -79,6 +81,7 @@
                 {"name":"Test Caps Modifier", "mods":["CAPSLOCK"]}
             ],
             "S" : [
+                {"name":"Auto Decelerate", "mods":["ALT"]},
                 {"name":"Move Backward", "mods":[]}
             ],
             "SEVEN" : [
@@ -109,6 +112,7 @@
                 {"name":"Switch Perspective", "mods":[]}
             ],
             "W" : [
+                {"name":"Auto Accelerate", "mods":["ALT"]},
                 {"name":"Move Forward", "mods":[]}
             ],
             "X" : [
@@ -122,7 +126,7 @@
                 {"name":"On/Off Auto Defence", "mods":["ALT"]}
             ]
         },
-        "Link Mode" : {
+        "Z Link Mode" : {
             "C" : [
                 {"name":"Pitch ONLY", "mods":[]}
             ],

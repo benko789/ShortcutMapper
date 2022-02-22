@@ -4,7 +4,7 @@
     "default_context": "Global Context",
     "os": ["windows", "mac", "linux"],
     "contexts": {
-        "Global Context": {
+        "MAS Global Context": {
 
             "Move Forward": ["W", "W", "W"],
 	    "Move Backward": ["S", "S", "S"],
@@ -14,6 +14,8 @@
 	    "Move Down": ["Control", "Control", "Control"],
 	    "Look Back": ["B", "B", "B"],
 	    "Boost": ["Shift", "Shift", "Shift"],
+	    "Auto Accelerate": ["Alt+W", "", ""],
+	    "Auto Decelerate": ["Alt+S", "", ""],
 
 	    "Roll Left": ["Q","",""],
 	    "Roll Right": ["E","",""],
@@ -29,6 +31,7 @@
 	    "Rear View Monitor": ["Alt+B", "Alt+B", "Alt+B"],
 	    "Switch Perspective": ["V", "V", "V"],
 	    "Pilot / MAS": ["P", "", ""],
+	    "MAS Interact": ["F", "", ""],
 
 	    "Hand Weapon Group": ["One","",""],
 	    "Weapon Group 2": ["Two","",""],
@@ -40,7 +43,12 @@
 	    "Weapon Group 8": ["Eight","",""],
 	    "Weapon Group 9": ["Nine","",""],
 	    "ALL Weapon Group": ["Zero","",""],
+	    "Single Weapon Selection": ["Alt+One","",""],
 	    "On/Off Auto Defence": ["Alt+Zero","",""],
+	    "Up Weapon in Group": ["Arrow_Up","",""],
+	    "Down Weapon in Group": ["Arrow_Down","",""],
+	    "Left Weapon in Group": ["Arrow_Left","",""],
+	    "Right Weapon in Group": ["Arrow_Right","",""],
 
             "Cruise Control Mode": ["U","",""],
             "Dummy Control Mode": ["I","",""],
@@ -53,7 +61,7 @@
             "Test PageUp Modifier": ["Page Up+G", ""],
             "Test ` Modifier": ["`+O", ""]
         },
-        "Link Mode": {
+        "Z Link Mode": {
 	    "Roll ONLY": ["X","",""],
 	    "Pitch ONLY": ["C","",""],
 	    "Yaw ONLY": ["Z","",""]
