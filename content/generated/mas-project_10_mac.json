@@ -2,54 +2,34 @@
     "name" : "MAS Project",
     "version" : "10",
     "os" : "mac",
-    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
+    "mods_used" : ["ALT"],
     "default_context" : "Global Context",
     "contexts" : {
         "Global Context" : {
-            "F2" : [
-                {"name":"Stop", "mods":["COMMAND"]}
+            "A" : [
+                {"name":"Move Left", "mods":[]}
             ],
-            "F4" : [
-                {"name":"Close Active Tab", "mods":["CONTROL", "SHIFT"]}
+            "B" : [
+                {"name":"Look Back", "mods":[]},
+                {"name":"Rear View Monitor", "mods":["ALT"]}
             ],
-            "FIVE" : [
-                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            "CONTROL" : [
+                {"name":"Move Down", "mods":[]}
             ],
-            "FOUR" : [
-                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+            "D" : [
+                {"name":"Move Right", "mods":[]}
             ],
-            "NINE" : [
-                {"name":"Switch Fire Mode", "mods":["CONTROL", "SHIFT"]}
+            "S" : [
+                {"name":"Move Backward", "mods":[]}
             ],
-            "NUMPAD_FIVE" : [
-                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "NUMPAD_FOUR" : [
-                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "NUMPAD_NINE" : [
-                {"name":"Switch Fire Mode", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "NUMPAD_SEVEN" : [
-                {"name":"Test ` Modifier", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "NUMPAD_SIX" : [
-                {"name":"Test PageUp Modifier", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "NUMPAD_TWO" : [
-                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "SEVEN" : [
-                {"name":"Test ` Modifier", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "SIX" : [
-                {"name":"Test PageUp Modifier", "mods":["CONTROL", "SHIFT"]}
+            "SHIFT" : [
+                {"name":"Boost", "mods":[]}
             ],
             "SPACE" : [
-                {"name":"Test Caps Modifier", "mods":["ALT", "CONTROL"]}
+                {"name":"Move Up", "mods":[]}
             ],
-            "TWO" : [
-                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+            "V" : [
+                {"name":"Switch Perspective", "mods":[]}
             ],
             "W" : [
                 {"name":"Move Forward", "mods":[]}

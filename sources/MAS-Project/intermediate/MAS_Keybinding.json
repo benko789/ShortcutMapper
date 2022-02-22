@@ -5,16 +5,58 @@
     "os": ["windows", "mac", "linux"],
     "contexts": {
         "Global Context": {
-            "Move Forward": ["W", "W"],
-            "Switch Fire Mode": ["Tab+F", "Shift+Ctrl+9"],
-            "Test Caps Modifier": ["CAPSLOCK+Q", "Ctrl+Alt+Space"],
-            "Test PageUp Modifier": ["Page Up+G", "Shift+Ctrl+6"],
-            "Test ` Modifier": ["`+O", "Shift+Ctrl+7"],
-            "Toggle Bookmark 4": ["Shift+Ctrl+4", "Shift+Ctrl+4"],
-            "Stop": ["Ctrl+F2", "Command+F2"],
-            "Toggle Bookmark 5": ["Shift+Ctrl+5", "Shift+Ctrl+5"],
-            "Toggle Bookmark 2": ["Shift+Ctrl+2", "Shift+Ctrl+2"],
-            "Close Active Tab": ["Shift+Ctrl+F4", "Shift+Ctrl+F4"]
-        }
+
+            "Move Forward": ["W", "W", "W"],
+	    "Move Backward": ["S", "S", "S"],
+	    "Move Left": ["A", "A", "A"],
+	    "Move Right": ["D", "D", "D"],
+	    "Move Up": ["Space", "Space", "Space"],
+	    "Move Down": ["Control", "Control", "Control"],
+	    "Look Back": ["B", "B", "B"],
+	    "Boost": ["Shift", "Shift", "Shift"],
+
+	    "Roll Left": ["Q","",""],
+	    "Roll Right": ["E","",""],
+	    "Pitch Up": ["NumPad_Eight","",""],
+	    "Pitch Down": ["NumPad_Two","",""],
+	    "Yaw Left": ["NumPad_Four","",""],
+	    "Yaw Right": ["NumPad_Six","",""],
+	    "Cont./Step Rotation": ["Alt+Q","",""],
+	    "Roll ONLY": ["X","",""],
+	    "Pitch ONLY": ["C","",""],
+	    "Yaw ONLY": ["Z","",""],
+
+	    "Rear View Monitor": ["Alt+B", "Alt+B", "Alt+B"],
+	    "Switch Perspective": ["V", "V", "V"],
+	    "Pilot / MAS": ["P", "", ""],
+
+	    "Hand Weapon Group": ["One","",""],
+	    "Weapon Group 2": ["Two","",""],
+	    "Weapon Group 3": ["Three","",""],
+	    "Weapon Group 4": ["Four","",""],
+	    "Weapon Group 5": ["Five","",""],
+	    "Weapon Group 6": ["Six","",""],
+	    "Weapon Group 7": ["Seven","",""],
+	    "Weapon Group 8": ["Eight","",""],
+	    "Weapon Group 9": ["Nine","",""],
+	    "ALL Weapon Group": ["Zero","",""],
+	    "On/Off Auto Defence": ["Alt+Zero","",""],
+
+            "Cruise Control Mode": ["U","",""],
+            "Dummy Control Mode": ["I","",""],
+            "HeadLock Control Mode": ["J","",""],
+            "Target Control Mode": ["K","",""],
+
+            "Lock Target": ["T","",""],
+            "Switch Fire Mode": ["Tab+F","",""],
+            "Test Caps Modifier": ["CAPSLOCK+Q", ""],
+            "Test PageUp Modifier": ["Page Up+G", ""],
+            "Test ` Modifier": ["`+O", ""]
+        },
+        "Link Mode": {
+	    "Roll ONLY": ["X","",""],
+	    "Pitch ONLY": ["C","",""],
+	    "Yaw ONLY": ["Z","",""]
+	}
     }
 }

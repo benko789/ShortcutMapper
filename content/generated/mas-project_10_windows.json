@@ -2,48 +2,135 @@
     "name" : "MAS Project",
     "version" : "10",
     "os" : "windows",
-    "mods_used" : ["ACCENT_GRAVE", "CAPSLOCK", "CONTROL", "PAGE_UP", "SHIFT", "TAB"],
+    "mods_used" : ["ACCENT_GRAVE", "ALT", "CAPSLOCK", "PAGE_UP", "TAB"],
     "default_context" : "Global Context",
     "contexts" : {
         "Global Context" : {
+            "A" : [
+                {"name":"Move Left", "mods":[]}
+            ],
+            "B" : [
+                {"name":"Look Back", "mods":[]},
+                {"name":"Rear View Monitor", "mods":["ALT"]}
+            ],
+            "C" : [
+                {"name":"Pitch ONLY", "mods":[]}
+            ],
+            "CONTROL" : [
+                {"name":"Move Down", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Move Right", "mods":[]}
+            ],
+            "E" : [
+                {"name":"Roll Right", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Weapon Group 8", "mods":[]}
+            ],
             "F" : [
                 {"name":"Switch Fire Mode", "mods":["TAB"]}
             ],
-            "F2" : [
-                {"name":"Stop", "mods":["CONTROL"]}
-            ],
-            "F4" : [
-                {"name":"Close Active Tab", "mods":["CONTROL", "SHIFT"]}
-            ],
             "FIVE" : [
-                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Weapon Group 5", "mods":[]}
             ],
             "FOUR" : [
-                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Weapon Group 4", "mods":[]}
             ],
             "G" : [
                 {"name":"Test PageUp Modifier", "mods":["PAGE_UP"]}
             ],
-            "NUMPAD_FIVE" : [
-                {"name":"Toggle Bookmark 5", "mods":["CONTROL", "SHIFT"]}
+            "I" : [
+                {"name":"Dummy Control Mode", "mods":[]}
+            ],
+            "J" : [
+                {"name":"HeadLock Control Mode", "mods":[]}
+            ],
+            "K" : [
+                {"name":"Target Control Mode", "mods":[]}
+            ],
+            "NINE" : [
+                {"name":"Weapon Group 9", "mods":[]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Pitch Up", "mods":[]}
             ],
             "NUMPAD_FOUR" : [
-                {"name":"Toggle Bookmark 4", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Yaw Left", "mods":[]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Yaw Right", "mods":[]}
             ],
             "NUMPAD_TWO" : [
-                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Pitch Down", "mods":[]}
             ],
             "O" : [
                 {"name":"Test ` Modifier", "mods":["ACCENT_GRAVE"]}
             ],
+            "ONE" : [
+                {"name":"Hand Weapon Group", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Pilot / MAS", "mods":[]}
+            ],
             "Q" : [
+                {"name":"Cont./Step Rotation", "mods":["ALT"]},
+                {"name":"Roll Left", "mods":[]},
                 {"name":"Test Caps Modifier", "mods":["CAPSLOCK"]}
             ],
+            "S" : [
+                {"name":"Move Backward", "mods":[]}
+            ],
+            "SEVEN" : [
+                {"name":"Weapon Group 7", "mods":[]}
+            ],
+            "SHIFT" : [
+                {"name":"Boost", "mods":[]}
+            ],
+            "SIX" : [
+                {"name":"Weapon Group 6", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Move Up", "mods":[]}
+            ],
+            "T" : [
+                {"name":"Lock Target", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Weapon Group 3", "mods":[]}
+            ],
             "TWO" : [
-                {"name":"Toggle Bookmark 2", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Weapon Group 2", "mods":[]}
+            ],
+            "U" : [
+                {"name":"Cruise Control Mode", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Switch Perspective", "mods":[]}
             ],
             "W" : [
                 {"name":"Move Forward", "mods":[]}
+            ],
+            "X" : [
+                {"name":"Roll ONLY", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Yaw ONLY", "mods":[]}
+            ],
+            "ZERO" : [
+                {"name":"ALL Weapon Group", "mods":[]},
+                {"name":"On/Off Auto Defence", "mods":["ALT"]}
+            ]
+        },
+        "Link Mode" : {
+            "C" : [
+                {"name":"Pitch ONLY", "mods":[]}
+            ],
+            "X" : [
+                {"name":"Roll ONLY", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Yaw ONLY", "mods":[]}
             ]
         }
     }
