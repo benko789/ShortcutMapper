@@ -59,6 +59,7 @@
             "Switch Fire Mode": ["Tab+F","",""],
             "Test Caps Modifier": ["CAPSLOCK+Q", ""],
             "Test PageUp Modifier": ["Page Up+G", ""],
+            "Test PageDown Modifier": ["Page Down+T", ""],
             "Test ` Modifier": ["`+O", ""]
         },
         "Z Link Mode": {

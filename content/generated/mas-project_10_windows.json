@@ -2,7 +2,7 @@
     "name" : "MAS Project",
     "version" : "10",
     "os" : "windows",
-    "mods_used" : ["ACCENT_GRAVE", "ALT", "CAPSLOCK", "PAGE_UP", "TAB"],
+    "mods_used" : ["ACCENT_GRAVE", "ALT", "CAPSLOCK", "PAGE_DOWN", "PAGE_UP", "TAB"],
     "default_context" : "Global Context",
     "contexts" : {
         "MAS Global Context" : {
@@ -97,7 +97,8 @@
                 {"name":"Move Up", "mods":[]}
             ],
             "T" : [
-                {"name":"Lock Target", "mods":[]}
+                {"name":"Lock Target", "mods":[]},
+                {"name":"Test PageDown Modifier", "mods":["PAGE_DOWN"]}
             ],
             "THREE" : [
                 {"name":"Weapon Group 3", "mods":[]}
